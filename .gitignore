@@ -8,9 +8,9 @@ yarn-error.log
 
 # Laravel
 /vendor/
-.env.backup
-.env.production
-.env.local
+# .env.backup
+# .env.production
+# .env.local
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
@@ -26,7 +26,7 @@ storage/logs/*.log
 composer.lock
 composer.phar
 *.log
-*.sql
+# *.sql
 *.sqlite
 
 # IDE
@@ -44,7 +44,6 @@ Thumbs.db
 public/hot
 public/storage
 /storage/*.key
-.env
 .phpunit.result.cache
 docker-compose.override.yml
 
@@ -78,10 +77,11 @@ storage/framework/views/*
 bootstrap/cache/*.php
 
 # Environment files
-.env.*
-!.env.example
+# .env.*
+# !.env.example
 
 # Testing
 .coverage
 .phpunit.result.cache
 coverage/
+config.bat
